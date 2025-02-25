@@ -32,7 +32,6 @@ func main() {
 			continue
 		}
 
-		// Удаляем все пробельные символы, включая '\r' и '\n'
 		input = strings.TrimSpace(input)
 
 		guess, err := strconv.Atoi(input)
